@@ -99,7 +99,7 @@
 			children = (
 				549675302154ED2C00DDC090 /* AppDelegate.swift */,
 				549675322154ED2D00DDC090 /* ViewController.swift */,
-				549675342154ED2D00DDC090 /* Main.storyboard */,
+				54CBBD3F21AE35340045D9A9 /* New Group */,
 				549675372154ED2E00DDC090 /* Assets.xcassets */,
 				549675392154ED2E00DDC090 /* LaunchScreen.storyboard */,
 				5496753C2154ED2E00DDC090 /* Info.plist */,
@@ -123,6 +123,14 @@
 				549675522154ED2E00DDC090 /* Info.plist */,
 			);
 			path = wasdUITests;
+			sourceTree = "<group>";
+		};
+		54CBBD3F21AE35340045D9A9 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				549675342154ED2D00DDC090 /* Main.storyboard */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
