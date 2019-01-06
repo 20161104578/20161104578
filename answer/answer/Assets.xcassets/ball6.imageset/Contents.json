@@ -2,15 +2,16 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "ball6.jpeg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "ball6.jpeg",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
+      "filename" : "ball6-1.jpeg",
       "scale" : "3x"
     }
   ],

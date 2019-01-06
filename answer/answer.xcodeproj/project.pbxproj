@@ -13,8 +13,6 @@
 		546E912621D3769300F464C3 /* answer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 546E912421D3769300F464C3 /* answer.xcdatamodeld */; };
 		546E912821D3769700F464C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 546E912721D3769700F464C3 /* Assets.xcassets */; };
 		546E912B21D3769700F464C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546E912921D3769700F464C3 /* LaunchScreen.storyboard */; };
-		546E913621D3769700F464C3 /* answerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546E913521D3769700F464C3 /* answerTests.swift */; };
-		546E914121D3769700F464C3 /* answerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546E914021D3769700F464C3 /* answerUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +42,7 @@
 		546E912A21D3769700F464C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		546E912C21D3769700F464C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		546E913121D3769700F464C3 /* answerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = answerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		546E913521D3769700F464C3 /* answerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = answerTests.swift; sourceTree = "<group>"; };
-		546E913721D3769700F464C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		546E913C21D3769700F464C3 /* answerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = answerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		546E914021D3769700F464C3 /* answerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = answerUITests.swift; sourceTree = "<group>"; };
-		546E914221D3769700F464C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				546E911C21D3769300F464C3 /* answer */,
-				546E913421D3769700F464C3 /* answerTests */,
-				546E913F21D3769700F464C3 /* answerUITests */,
 				546E911B21D3769300F464C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,24 +100,6 @@
 				546E912421D3769300F464C3 /* answer.xcdatamodeld */,
 			);
 			path = answer;
-			sourceTree = "<group>";
-		};
-		546E913421D3769700F464C3 /* answerTests */ = {
-			isa = PBXGroup;
-			children = (
-				546E913521D3769700F464C3 /* answerTests.swift */,
-				546E913721D3769700F464C3 /* Info.plist */,
-			);
-			path = answerTests;
-			sourceTree = "<group>";
-		};
-		546E913F21D3769700F464C3 /* answerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				546E914021D3769700F464C3 /* answerUITests.swift */,
-				546E914221D3769700F464C3 /* Info.plist */,
-			);
-			path = answerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				546E913621D3769700F464C3 /* answerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				546E914121D3769700F464C3 /* answerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
